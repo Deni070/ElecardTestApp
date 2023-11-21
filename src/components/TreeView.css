@@ -1,0 +1,45 @@
+.tree {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.root-tree {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sub-tree {
+    padding-left: 20px;
+}
+
+.category {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.selected {
+    color: #ff0000; /* Цвет выбранной категории (можете изменить по своему вкусу) */
+}
+
+.Modal__Content img {
+    width: 100%; /* Заполните ширину контента */
+    height: auto; /* Поддерживайте соотношение сторон */
+    max-height: 80vh; /* Ограничьте максимальную высоту */
+}
+
+.photo {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.photo img {
+    width: 50px; /* Уберите эту строку или измените ширину по вашему усмотрению */
+    margin-right: 10px;
+}
+
+.TreeViewImage{
+    width: 100px;
+}
